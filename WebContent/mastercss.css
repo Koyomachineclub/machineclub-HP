@@ -1,0 +1,6 @@
+#news{}
+#sidebar {
+  position: fixed;
+  float: left;
+  #width: px;
+}
