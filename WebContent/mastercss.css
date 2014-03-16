@@ -1,6 +1,9 @@
 #news{width: px; height: px;}
 #sidebar {
-  position: fixed;
-  float: left;
-  #width: px;
+	position:fixed;
+	height: 100%;
+	position: fixed;
+	float:right;
+	top: 0;
+	left: 0;
 }
