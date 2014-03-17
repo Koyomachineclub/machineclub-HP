@@ -1,9 +1,21 @@
-#news{width: px; height: px;}
+
+body{
+	height:100%;
+	width:100%;
+	background-color: #ececec;
+	
+}
+#inner{
+	background-color: #ececec;
+	margin-left:36px;
+}
 #sidebar {
+	background-color: #fefefe;
+	white-space: nowrap; 
+	overflow-y: hidden;
+	height:100%;
+	width:35px;
 	position:fixed;
-	height: 100%;
-	position: fixed;
-	float:right;
-	top: 0;
-	left: 0;
+	top:0;
+	left:0;
 }
