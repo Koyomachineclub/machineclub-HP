@@ -1,4 +1,11 @@
+
 function sidewidth(obj,towidth){
-	var stylewidth=obj.style.width;
-	console.log(stylewidth);
+	var element=document.getElementById("sidebar")
+	var style=getComputedStyle(element, '');
+	
+}
+function ExtractNum( str ){
+    var num = new String( str ).match(/\d/g);
+    num = num.join("");
+    return num;
 }
