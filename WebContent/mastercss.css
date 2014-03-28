@@ -7,16 +7,18 @@ body{
 #inner{
 	background-color: #ececec;
 	margin-left:60px;
+	z-index:0;
 }
 #sidebar {
 	background-color: #fefefe;
 	white-space: nowrap; 
-	overflow-y: hidden;
+	overflow: hidden;
 	height:100%;
 	width:60px;
 	position:fixed;
 	top:0;
 	left:0;
+	z-index:1;
 }
 #img{
 	psition:relative;
