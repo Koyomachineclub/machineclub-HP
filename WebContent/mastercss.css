@@ -11,7 +11,7 @@ body{
 #sidebar {
 	background-color: #fefefe;
 	white-space: nowrap; 
-	overflow-y: hidden;
+	overflow: hidden;
 	height:100%;
 	width:60px;
 	position:fixed;
