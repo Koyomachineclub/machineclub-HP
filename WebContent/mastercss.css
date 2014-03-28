@@ -19,3 +19,9 @@ body{
 	top:0;
 	left:0;
 }
+#img{
+	psition:relative;
+}
+.viewphoto{
+	position:absolute;
+}
