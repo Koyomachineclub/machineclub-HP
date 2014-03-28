@@ -19,10 +19,18 @@ body{
 	top:0;
 	left:0;
 	z-index:1;
+	transition-property: width;
+transition-duration:0.1s;
+transition-timing-function:ease-in-out;
 }
 #img{
 	psition:relative;
 }
 .viewphoto{
 	position:absolute;
+}
+ul{
+	list-style-type:none;
+	list-style-position:outside;
+	padding:0px;
 }
