@@ -1,7 +1,5 @@
-
 function sidewidth(obj,towidth){
-	var element=document.getElementById("sidebar")
-    element.style.width="120px";
+	obj.style.width=towidth;
 	}
 
 function ExtractNum( str ){
