@@ -1,5 +1,5 @@
 function sidewidth(obj,towidth){
-	obj.style.width=towidth;
+	obj.style.width=towidth+"px";
 	}
 
 function ExtractNum( str ){
