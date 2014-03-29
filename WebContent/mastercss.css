@@ -37,8 +37,12 @@ body{
 	position:fixed;
 	top:0;
 	left:0;
-	z-index:1;
+	z-index:2;
+	background-color:rgba(156,201,0,1);
 	transition:width 0.1s linear;
+}
+.secmenu{
+	display:none;
 }
 #img{
 	psition:relative;
@@ -95,4 +99,32 @@ ul{
 	list-style-type:none;
 	list-style-position:outside;
 	padding:0px;
+}
+li{
+	display:block;
+	list-style-type:none;
+	list-style-position:outside;
+	text-align:center;
+	margin:0px auto;
+}
+a.primenu{
+	position:relative;
+	display:inline-block;
+	width:144px;
+	padding:10px 20px;
+	background-color:rgba(156,201,0,1);
+	text-align:center;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+a.primenu:hover{
+	background-color:rgba(181,226,25,1);
+	z-index:3;
+}
+a.primenu:active{
+	top:2px;
+}
+section h2{
+	color:#ffffff;
 }
