@@ -25,7 +25,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.3"
-     inkscape:cx="960"
+     inkscape:cx="839.13376"
      inkscape:cy="540"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -34,7 +34,12 @@
      inkscape:window-height="656"
      inkscape:window-x="576"
      inkscape:window-y="240"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     inkscape:snap-bbox="false"
+     inkscape:bbox-paths="false"
+     inkscape:bbox-nodes="false"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-bbox-midpoints="false" />
   <metadata
      id="metadata2990">
     <rdf:RDF>
@@ -53,14 +58,15 @@
      inkscape:groupmode="layer">
     <text
        xml:space="preserve"
-       style="font-size:512px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="316.66666"
-       y="723.33331"
+       style="font-size:1025.97119141000007403px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-47.597767"
+       y="803.83252"
        id="text2993"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       transform="scale(0.77955839,1.2827775)"><tspan
          sodipodi:role="line"
          id="tspan2995"
-         x="316.66666"
-         y="723.33331">テスト</tspan></text>
+         x="-47.597767"
+         y="803.83252">テスト</tspan></text>
   </g>
 </svg>
