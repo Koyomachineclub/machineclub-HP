@@ -76,6 +76,7 @@ body{
 	margin: 0 auto; 
 	width:160px;
 	height:90px;
+	cursor:pointer;
 }
 #viewphoto1{
 	opacity:1;
