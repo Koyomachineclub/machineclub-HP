@@ -4,15 +4,69 @@ li{
 	
 	margin:10px;
 }
-#sample1{
+a{
+	position:relative;
 	display:inline-block;
 	padding:10px 20px;
-	border-radius:8px;
 	background-color:rgba(156,201,0,1);
 	text-align:center;
 	color:#ffffff;
 	text-decoration:none;
 }
+#sample1{
+	border-radius:8px;
+}
 #sample1:hover{
+	background-color:rgba(156,201,0,0.8);
+}
+#sample1:active{
+	top:2px;
+}
+#sample2{
 	
+}
+#sample2:hover{
+	background-color:rgba(156,201,0,0.8);
+}
+#sample2:active{
+	top:2px;
+}
+#sample3{
+	text-shadow:0 -1px 1px rgba(0,0,0,0.5);
+	box-shadow:0 1px 3px rgba(0,0,0,0.6);
+	border-bottom:1px solid rgba(0,0,0,0.5);
+	border-radius:8px;
+	background: -moz-linear-gradient(top,rgba(156,201,0,0.7), rgba(156,201,0,1));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(156,201,0,0.7)), to(rgba(156,201,0,1)));
+}
+#sample3:hover{
+	background: -moz-linear-gradient(top,rgba(156,201,0,0.4), rgba(156,201,0,1));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(156,201,0,0.4)), to(rgba(156,201,0,1)));
+}
+#sample3:active{
+	top:2px;
+	text-shadow:0 -1px 1px rgba(0,0,0,0.5);
+	box-shadow:0 1px 3px rgba(0,0,0,0);
+	border-bottom:1px solid rgba(0,0,0,0);
+	background: -moz-linear-gradient(top,rgba(156,201,0,1), rgba(156,201,0,0.4));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(156,201,0,1)), to(rgba(156,201,0,0.4)));
+}
+#sample4{
+	text-shadow:0 -1px 1px rgba(0,0,0,0.5);
+	box-shadow:0 1px 3px rgba(0,0,0,0.6);
+	border-bottom:1px solid rgba(0,0,0,0.5);
+	background: -moz-linear-gradient(top,rgba(156,201,0,0.7), rgba(156,201,0,1));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(156,201,0,0.7)), to(rgba(156,201,0,1)));
+}
+#sample4:hover{
+	background: -moz-linear-gradient(top,rgba(156,201,0,0.4), rgba(156,201,0,1));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(156,201,0,0.4)), to(rgba(156,201,0,1)));
+}
+#sample4:active{
+	top:2px;
+	text-shadow:0 -1px 1px rgba(0,0,0,0.5);
+	box-shadow:0 1px 3px rgba(0,0,0,0);
+	border-bottom:1px solid rgba(0,0,0,0);
+	background: -moz-linear-gradient(top,rgba(156,201,0,1), rgba(156,201,0,0.4));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(156,201,0,1)), to(rgba(156,201,0,0.4)));
 }
