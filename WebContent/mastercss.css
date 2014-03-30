@@ -38,8 +38,9 @@ body{
 	top:0;
 	left:0;
 	z-index:2;
-	background-color:rgba(156,201,0,1);
-	transition:width 0.1s linear;
+}
+#sidebar:hover{
+	width:184px;
 }
 .secmenu{
 	display:none;
@@ -71,7 +72,6 @@ body{
 	position:absolute;
 	opacity:0;
 	display:block;
-	transition:all 1s linear;
 }
 .thumbnailphoto{
 	position:relative;
@@ -107,22 +107,23 @@ li{
 	text-align:center;
 	margin:0px auto;
 }
-a.primenu{
+.primenu{
 	position:relative;
-	display:inline-block;
-	width:144px;
 	padding:10px 20px;
 	background-color:rgba(156,201,0,1);
 	text-align:center;
+	
+}
+li.primenu a{
 	color:#ffffff;
 	text-decoration:none;
 }
 
-a.primenu:hover{
+.primenu:hover{
 	background-color:rgba(181,226,25,1);
-	z-index:3;
+	z-index:2;
 }
-a.primenu:active{
+.primenu:active{
 	top:2px;
 }
 section h2{
