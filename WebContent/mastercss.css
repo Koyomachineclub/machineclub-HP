@@ -29,7 +29,7 @@ body{
 
 
 #sidebar {
-	background-color: #fefefe;
+	background-color: rgba(156,201,0,1);
 	white-space: nowrap; 
 	overflow: hidden;
 	height:100%;
