@@ -1,5 +1,8 @@
-$("li.secmenu").css("display","none");
-$("li.primenu").click(function(){
-$("li.secmenu").slideup("slow");
+$(".secmenu").css("display","none");
+$("#primenuone").click(function(){
+	if("block"===$(".secmenu").css("display"))
+		$(".secmenuone").slideUp("slow");
+	else if("none"===$(".secmenu").css("display"))
+		$(".secmenuone").slideDown("slow").css("display","block");
 }
-)
+);

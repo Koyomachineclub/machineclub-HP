@@ -42,9 +42,7 @@ body{
 #sidebar:hover{
 	width:184px;
 }
-.secmenu{
-	display:none;
-}
+
 #img{
 	psition:relative;
 	white-space: nowrap;
@@ -110,21 +108,30 @@ li{
 .primenu{
 	position:relative;
 	
-	background-color:rgba(156,201,0,1);
+	
 	text-align:center;
 	
 }
 li.primenu a{
+	position:relative;
 	color:#ffffff;
+	background-color:rgba(156,201,0,1);
 	padding:10px 20px;
 	text-decoration:none;
 }
 
-.primenu:hover{
+li.primenu a{
+	display:block;
+}
+li.secmenu  a{
+	padding:5px 10px 5px 30px;
+	background-color:rgba(131,176,0,1);
+}
+.primenu a:hover{
 	background-color:rgba(181,226,25,1);
 	z-index:2;
 }
-.primenu:active{
+.primenu a:active{
 	top:2px;
 }
 section h2{
