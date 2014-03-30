@@ -109,13 +109,14 @@ li{
 }
 .primenu{
 	position:relative;
-	padding:10px 20px;
+	
 	background-color:rgba(156,201,0,1);
 	text-align:center;
 	
 }
 li.primenu a{
 	color:#ffffff;
+	padding:10px 20px;
 	text-decoration:none;
 }
 
