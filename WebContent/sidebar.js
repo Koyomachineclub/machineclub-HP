@@ -1,7 +1,7 @@
 $(".secmenu").css("display","none");
-$(".primenu:eq(1)").click(function(){
+$("#one").click(function(){
 	$(".secmenu:lt(8)").slideToggle(500);
 });
-$(".primenu:eq(2)").click(function(){
+$("#two").click(function(){
 	$(".secmenu:gt(8)").slideToggle(500);
 });

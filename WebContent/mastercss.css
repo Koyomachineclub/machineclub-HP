@@ -116,7 +116,6 @@ li.primenu a{
 	position:relative;
 	color:#ffffff;
 	background-color:rgba(156,201,0,1);
-	padding:10px 20px;
 	text-decoration:none;
 }
 
@@ -131,9 +130,52 @@ li.secmenu  a{
 	background-color:rgba(181,226,25,1);
 	z-index:2;
 }
+.secmenu a:hover{
+	background-color:rgba(143,188,12,1);
+	z-index:2;
+}
 .primenu a:active{
 	top:2px;
 }
 section h2{
 	color:#ffffff;
+}
+.quicknavi{
+	position:absolute;
+	top:0;
+	left:144px;
+	width:40px;
+	height:36px;
+	padding:0;
+	background-color:rgba(156,201,0,1);
+	z-index:3;
+}
+.quicknavi:hover{
+		background-color:rgba(181,226,25,1);
+}
+.naviactive{
+	display:none;
+	width:16px;
+	height:8px;
+	margin:14px 16px;	
+	text-indent: -9999em;
+	background:url(./yazirusi.svg) no-repeat;
+	background-position: 0px -8px;
+	z-index:5;
+}
+.naviunactive{
+	width:16px;
+	height:8px;
+	margin:14px 16px;
+	text-indent: -9999em;
+	background:url(./yazirusi.svg) no-repeat;
+	z-index:5;
+}
+.notlist{
+	width:184px;
+	padding:10px 0px;
+}
+.sidelist{
+	width:144px;
+	padding:10px 0px;
 }
