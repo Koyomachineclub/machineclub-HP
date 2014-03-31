@@ -1,7 +1,21 @@
 $(".secmenu").css("display","none");
 $("#one").click(function(){
+	if("none"===$("#onetwo").css("display")){
+		$("#oneone").css("display","none");
+		$("#onetwo").css("display","block");
+	}else{
+		$("#oneone").css("display","block");
+		$("#onetwo").css("display","none");
+	}
 	$(".secmenu:lt(8)").slideToggle(500);
 });
 $("#two").click(function(){
+	if("none"===$("#twotwo").css("display")){
+		$("#twoone").css("display","none");
+		$("#twotwo").css("display","block");
+	}else{
+		$("#twoone").css("display","block");
+		$("#twotwo").css("display","none");
+	}
 	$(".secmenu:gt(8)").slideToggle(500);
 });
