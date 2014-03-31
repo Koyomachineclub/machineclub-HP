@@ -1,5 +1,5 @@
 $(".secmenu").css("display","none");
-$(".primenu:contains(紹介)").click(function(){
+$(".primenu:eq(1)").click(function(){
 	if("block"===$(".secmenu").css("display"))
 		$(".secmenu:lt(8)").slideUp("slow");
 		else if("none"===$(".secmenu").css("display"))
