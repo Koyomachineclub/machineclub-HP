@@ -6,8 +6,8 @@ $("#navi").click(function(){
 	if($("#sidebar").width()===60){
 		$("#sidebar").animate({width:'184px'},{duration:'slow',queue: false}).animate({height:'210px'},{duration:'slow',complete: function(){$("#sidebar").css("height","auto");totyu="0";}});
 	}else{
-		$(".secmenu:lt(8)").slideUp(500);
-		$(".secmenu:gt(8)").slideUp(500);
+		$(".secmenu:lt(8)").slideUp(420);
+		$(".secmenu:gt(8)").slideUp(420);
 		$("#sidebar").animate({width:'60px'},{duration:'slow',queue: false}).animate({height:'25px'},{duration:'slow',complete: function(){totyu="0";}});
 	}
 	return;
