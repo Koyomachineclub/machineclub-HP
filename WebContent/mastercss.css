@@ -2,10 +2,6 @@
 	padding:0px;
 	margin:0px;
 }
-#clickanime{
-	position:fixed;
-	z-index:4;
-}
 body{
 	background-color: #ffffff;
 	width:100%;
@@ -63,73 +59,21 @@ body{
 	cursor:pointer;
 }
 
-#img{
-	psition:relative;
-	white-space: nowrap;
-	overflow: hidden;
-	width:832px;
-	height:360px;
-	padding:0;
-	margin:0 auto;
-}
-#view{
-	psition:relative;
-	display:block;
-	float:left;
-	width:640px;
-	height:360px;
-}
-#thumbnail{
-	psition:relative;
-	display:block;
-	float:right;
-	width:192px;
-	height:360px;
-}
-.viewphoto{
-	position:absolute;
-	display:block;
-}
-.thumbnailphoto{
-	position:relative;
-	top:16px;
-	display:block;
-	margin: 0 auto; 
-	width:160px;
-	height:90px;
-	cursor:pointer;
-}
-#viewphoto1{
-	opacity:1;
-	display:block;
-}
-#News{
-	display:block;
-	padding:0 auto;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 footer{
 	position:relative;
 	bottom:0px;
 	text-align:center;
 	
 }
-ul{
-	list-style-type:none;
-	list-style-position:outside;
-	padding:0px;
-}
-li{
+li.primenu{
+	position:relative;
 	display:block;
 	list-style-type:none;
 	list-style-position:outside;
+	padding:0px;
 	text-align:center;
 	margin:0px auto;
-}
-.primenu{
-	position:relative;
-	
 	text-align:center;
 	
 }
