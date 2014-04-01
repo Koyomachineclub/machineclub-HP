@@ -61,7 +61,7 @@ body{
 
 
 footer{
-	position:relative;
+	position:absolute;
 	bottom:0px;
 	text-align:center;
 	
@@ -144,4 +144,9 @@ section h2{
 .sidelist{
 	width:144px;
 	padding:10px 0px;
+}
+.title1{
+	display:block;
+	color:#ffffff;
+	background-color:deepskyblue;
 }
