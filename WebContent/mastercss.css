@@ -128,13 +128,13 @@ li{
 }
 .primenu{
 	position:relative;
-	height:36px;
 	
 	text-align:center;
 	
 }
 li.primenu a{
 	position:relative;
+	height:16px;
 	color:#ffffff;
 	background-color:rgba(156,201,0,1);
 	text-decoration:none;
