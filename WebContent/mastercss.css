@@ -49,13 +49,15 @@ body{
 	white-space: nowrap; 
 	overflow: hidden;
 	width:60px;
-	height:25px;
+	height:24px;
 	position:fixed;
 	top:80px;
 	left:0;
 	z-index:2;
 }
 #navi{
+	font-size: 1.5em;
+	font-weight: bold;
 	cursor:pointer;
 }
 

@@ -8,7 +8,7 @@ $("#navi").click(function(){
 	}else{
 		$(".secmenu:lt(8)").slideUp(420);
 		$(".secmenu:gt(8)").slideUp(420);
-		$("#sidebar").animate({width:'60px'},{duration:'slow',queue: false}).animate({height:'25px'},{duration:'slow',complete: function(){totyu="0";}});
+		$("#sidebar").animate({width:'60px'},{duration:'slow',queue: false}).animate({height:'24px'},{duration:'slow',complete: function(){totyu="0";}});
 	}
 	return;
 });
