@@ -3,12 +3,12 @@ $(".secmenu").css("display","none");
 $("#navi").click(function(){
 	if(totyu!=="0")return;
 	totyu="1";
-	if($("#sidebar").width()===60){
+	if($("#sidebar").width()===100){
 		$("#sidebar").animate({width:'184px'},{duration:'slow',queue: false}).animate({height:'204px'},{duration:'slow',complete: function(){$("#sidebar").css("height","auto");totyu="0";}});
 	}else{
 		$(".secmenu:lt(8)").slideUp(420);
 		$(".secmenu:gt(8)").slideUp(420);
-		$("#sidebar").animate({width:'60px'},{duration:'slow',queue: false}).animate({height:'24px'},{duration:'slow',complete: function(){totyu="0";}});
+		$("#sidebar").animate({width:'100px'},{duration:'slow',queue: false}).animate({height:'34px'},{duration:'slow',complete: function(){totyu="0";}});
 	}
 	return;
 });

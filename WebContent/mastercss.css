@@ -48,8 +48,8 @@ body{
 	background-color: rgba(156,201,0,1);
 	white-space: nowrap; 
 	overflow: hidden;
-	width:60px;
-	height:24px;
+	width:100px;
+	height:34px;
 	position:fixed;
 	top:80px;
 	left:0;
@@ -58,6 +58,7 @@ body{
 #navi{
 	font-size: 24px;
 	height:24px;
+	padding:5px 20px;
 	font-weight: bold;
 	cursor:pointer;
 }
