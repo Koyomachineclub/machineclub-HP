@@ -64,7 +64,7 @@ body{
 }
 
 #img{
-	psition:relative;
+	position:relative;
 	white-space: nowrap;
 	overflow: hidden;
 	width:832px;
@@ -73,14 +73,14 @@ body{
 	margin:0 auto;
 }
 #view{
-	psition:relative;
+	position:relative;
 	display:block;
 	float:left;
 	width:640px;
 	height:360px;
 }
 #thumbnail{
-	psition:relative;
+	position:relative;
 	display:block;
 	float:right;
 	width:192px;
