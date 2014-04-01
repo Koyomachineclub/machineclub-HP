@@ -2,10 +2,6 @@
 	padding:0px;
 	margin:0px;
 }
-#clickanime{
-	position:fixed;
-	z-index:4;
-}
 body{
 	background-color: #ffffff;
 	width:100%;
@@ -63,6 +59,9 @@ body{
 	cursor:pointer;
 }
 
+<<<<<<< HEAD
+
+=======
 #img{
 	position:relative;
 	white-space: nowrap;
@@ -109,27 +108,21 @@ body{
 	margin-left: 35px;
 	margin-right: auto;
 }
+>>>>>>> branch 'master' of https://github.com/Koyomachineclub/machineclub-HP.git
 footer{
-	position:relative;
+	position:absolute;
 	bottom:0px;
 	text-align:center;
 	
 }
-ul{
-	list-style-type:none;
-	list-style-position:outside;
-	padding:0px;
-}
-li{
+li.primenu{
+	position:relative;
 	display:block;
 	list-style-type:none;
 	list-style-position:outside;
+	padding:0px;
 	text-align:center;
 	margin:0px auto;
-}
-.primenu{
-	position:relative;
-	
 	text-align:center;
 	
 }
@@ -201,3 +194,14 @@ section h2{
 	width:144px;
 	padding:10px 0px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.title1{
+	display:block;
+	color:#ffffff;
+	background-color:deepskyblue;
+}
+=======
+>>>>>>> branch 'master' of https://github.com/Koyomachineclub/machineclub-HP.git
+>>>>>>> refs/remotes/origin/test
