@@ -4,7 +4,7 @@ $("#navi").click(function(){
 	if(totyu!=="0")return;
 	totyu="1";
 	if($("#sidebar").width()===60){
-		$("#sidebar").animate({width:'184px'},{duration:'slow',queue: false}).animate({height:'210px'},{duration:'slow',complete: function(){$("#sidebar").css("height","auto");totyu="0";}});
+		$("#sidebar").animate({width:'184px'},{duration:'slow',queue: false}).animate({height:'204px'},{duration:'slow',complete: function(){$("#sidebar").css("height","auto");totyu="0";}});
 	}else{
 		$(".secmenu:lt(8)").slideUp(420);
 		$(".secmenu:gt(8)").slideUp(420);

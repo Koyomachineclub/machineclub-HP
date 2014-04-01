@@ -56,7 +56,8 @@ body{
 	z-index:2;
 }
 #navi{
-	font-size: 1.5em;
+	font-size: 24px;
+	height:24px;
 	font-weight: bold;
 	cursor:pointer;
 }
@@ -127,7 +128,7 @@ li{
 }
 .primenu{
 	position:relative;
-	
+	height:36px;
 	
 	text-align:center;
 	
@@ -141,6 +142,7 @@ li.primenu a{
 
 li.primenu a{
 	display:block;
+	font-size: 16px;
 }
 li.secmenu  a{
 	padding:5px 10px 5px 30px;
