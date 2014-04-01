@@ -49,15 +49,14 @@ body{
 	white-space: nowrap; 
 	overflow: hidden;
 	width:60px;
-	height:30px;
+	height:25px;
 	position:fixed;
 	top:80px;
 	left:0;
 	z-index:2;
 }
-#sidebar:hover{
-	width:184px;
-	height:auto;
+#navi{
+	cursor:pointer;
 }
 
 #img{
