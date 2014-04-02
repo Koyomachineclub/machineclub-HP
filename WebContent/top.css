@@ -3,7 +3,6 @@ body{
 		margin:0 auto;
 }
 header{
-	border-bottom:solid 1px #888888;
 	margin-bottom:6px;
 	background-color:rgba(156,201,0,1);
 }
@@ -39,10 +38,14 @@ header{
 	left:0px;
 }
 .viewtitle{
+	border-right:solid 1px #f9f9f9;
+	background-color:#111111;
+	color:#eeeeee;
+	margin:0px;
 	font-family: Meiryo UI,'Segoe UI Light','SegoeUIWF',Arial,sans-serif;
+	font-size:18px;
 	display:inline-block;
 	text-align:center;
-	position:relative;
 	height:100%;
 	line-height:100%;
 	cursor:pointer;
