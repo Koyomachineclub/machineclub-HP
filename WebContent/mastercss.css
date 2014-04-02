@@ -1,14 +1,10 @@
 *{
 	padding:0px;
 	margin:0px;
+	font-family: Meiryo UI,Segoe UI,Arial,Verdana,Sans-Serif;
 }
-body{
-	background-color: #ffffff;
-	width:100%;
-	height:100%;
-	position:absolute;
-	top:0px;
-	bottom:0px;
+header{
+	margin-bottom:6px;
 }
 @media screen and (min-width:1020px){
 #inner{
@@ -18,6 +14,7 @@ body{
 	width:900px;
 	height:100%;
 	margin:0 auto;
+	padding:0px 10px;
 	z-index:0;
 	padding:0 auto;
 	background-color: #ffffff;
@@ -31,7 +28,8 @@ body{
 	background-color: #ffffff;
 	width:900px;
 	height:100%;
-	margin:0 auto 0 60px;
+	margin:0 auto 0 70px;
+	padding:0px 10px;
 	z-index:0;
 	padding:0 auto;
 	
@@ -58,60 +56,7 @@ body{
 	font-weight: bold;
 	cursor:pointer;
 }
-
-<<<<<<< HEAD
-
-=======
-#img{
-	position:relative;
-	white-space: nowrap;
-	overflow: hidden;
-	width:832px;
-	height:360px;
-	padding:0;
-	margin:0 auto;
-}
-#view{
-	position:relative;
-	display:block;
-	float:left;
-	width:640px;
-	height:360px;
-}
-#thumbnail{
-	position:relative;
-	display:block;
-	float:right;
-	width:192px;
-	height:360px;
-}
-.viewphoto{
-	position:absolute;
-	display:block;
-}
-.thumbnailphoto{
-	position:relative;
-	top:16px;
-	display:block;
-	margin: 0 auto; 
-	width:160px;
-	height:90px;
-	cursor:pointer;
-}
-#viewphoto1{
-	opacity:1;
-	display:block;
-}
-#News{
-	display:block;
-	padding:0 auto;
-	margin-left: 35px;
-	margin-right: auto;
-}
->>>>>>> branch 'master' of https://github.com/Koyomachineclub/machineclub-HP.git
 footer{
-	position:absolute;
-	bottom:0px;
 	text-align:center;
 	
 }
@@ -130,13 +75,10 @@ li.primenu a{
 	position:relative;
 	height:16px;
 	color:#ffffff;
-	background-color:rgba(156,201,0,1);
-	text-decoration:none;
-}
-
-li.primenu a{
 	display:block;
 	font-size: 16px;
+	background-color:rgba(156,201,0,1);
+	text-decoration:none;
 }
 li.secmenu  a{
 	padding:5px 10px 5px 30px;
@@ -194,14 +136,16 @@ section h2{
 	width:144px;
 	padding:10px 0px;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+.icon{
+	width:20px;
+	height:20px;
+}
+
 .title1{
 	display:block;
+	font-size:1.5em;
 	color:#ffffff;
-	background-color:deepskyblue;
+	background-color:purple;
+	padding:4px;
 }
-=======
->>>>>>> branch 'master' of https://github.com/Koyomachineclub/machineclub-HP.git
->>>>>>> refs/remotes/origin/test
+
