@@ -1,6 +1,7 @@
 body{
 		max-width:960px;
 		margin:0 auto;
+		background-color:#efefef;
 }
 header{
 	margin-bottom:6px;
@@ -39,8 +40,9 @@ header{
 }
 .viewtitle{
 	border-right:solid 1px #f9f9f9;
-	background-color:#111111;
-	color:#eeeeee;
+	border-bottom:solid 1px #f9f9f9;
+	background-color:darkorange;
+	color:#ffffff;
 	margin:0px;
 	font-family: Meiryo UI,'Segoe UI Light','SegoeUIWF',Arial,sans-serif;
 	font-size:18px;
