@@ -10,7 +10,7 @@ var an=function(){
 		$("#view").css("height","90%");
 		$(".viewphoto").css("height","90%");
 	}else{
-		imgheight=imgwidth/4*3;
+		imgheight=imgwidth/4*3+2;
 		per=imgwidth;
 		$("#viewtitles").css("white-space","normal");
 		$("#view").css("height","70%");

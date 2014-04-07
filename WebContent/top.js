@@ -3,7 +3,7 @@ var imgwidth,imgheight,titlelength,per;
 var an=function(){
 	titlelength=$(".viewtitle").length;
 	imgwidth=$("#img").width();
-	if(imgwidth>600){
+	if(imgwidth>640){
 		imgheight=imgwidth/8*5;
 		per=imgwidth/titlelength-1;
 		$("#viewtitles").css("white-space","nowrap");

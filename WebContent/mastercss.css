@@ -2,6 +2,7 @@
 	padding:0px;
 	margin:0px;
 	font-family: Meiryo UI,Segoe UI,Arial,Verdana,Sans-Serif;
+	color:#555;
 }
 header{
 	margin-bottom:6px;
@@ -148,7 +149,24 @@ section h2{
 	background-color:purple;
 	padding:4px;
 }
-.title{
+.title2{
 		background-color:#f1be09;
 }
-
+.size1{
+	border: 1px solid;
+	background-color:#fcfcfc;
+	display:inline-block;
+	position:relative;
+}
+.size2{
+	border: 1px solid;
+	background-color:#fcfcfc;
+	display:inline-block;
+	position:relative;
+}
+.size3{
+	border: 1px solid;
+	background-color:#fcfcfc;
+	display:inline-block;
+	position:relative;
+	}
