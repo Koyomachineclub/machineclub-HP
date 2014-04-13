@@ -1,0 +1,36 @@
+body{
+width:1000px;
+margin-left:auto;
+margin-right:auto;
+}
+.global-navi{  
+  margin: 0;  
+  padding: 0;  
+  width: ***;  
+}
+.global-navi ul{
+  list-style-type: none;
+}
+.global-navi a{  
+  text-align: center;  
+  display:block;  
+  padding: 0.5em 0;  
+  width: 100%;  
+  background-color: #000000;  
+  color: white;  
+text-decoration: none;
+}
+.hoge{  
+  float: left;  
+  width: 200px;  
+  margin: 0;  
+  padding: 0;  
+}  
+.hoge2{    
+  margin: 0;  
+  padding: 0;
+  width:  
+}  
+.hoge3{
+display:none;
+}
