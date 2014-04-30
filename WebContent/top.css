@@ -57,12 +57,18 @@ header{
 	display:block;
 }
 #News{
-	width:320px;
+
+        margin-left: 10px;
 	border: 1px solid purple;
 	padding:0 auto;
 	margin-top:16px;
 }
 #newsmain{
-	width:auto;
 	font-size:14px;
+        width:auto;
+        display:block;margin:10px auto;
+}
+#youkoso{
+    margin-right: 10px;
+    border: 1px solid deepskyblue; 
 }

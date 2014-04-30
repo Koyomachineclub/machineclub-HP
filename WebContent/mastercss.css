@@ -2,7 +2,7 @@
 	padding:0px;
 	margin:0px;
 	font-family: Meiryo UI,Segoe UI,Arial,Verdana,Sans-Serif;
-	color:#555;
+	color:#444;
 }
 header{
 	margin-bottom:6px;
@@ -59,6 +59,7 @@ header{
 }
 footer{
 	text-align:center;
+        color:#000;
 	
 }
 li.primenu{
@@ -138,7 +139,7 @@ section h2{
 	padding:10px 0px;
 }
 .icon{
-	width:20px;
+	width:auto;
 	height:20px;
 }
 
@@ -150,23 +151,58 @@ section h2{
 	padding:4px;
 }
 .title2{
-		background-color:#f1be09;
+	display:block;
+	font-size:1.5em;
+	color:#ffffff;
+        padding:4px;
+	background-color:#f1be09;
+}
+.title3{
+	display:block;
+	font-size:1.5em;
+	color:#ffffff;
+        padding:2px;
+        background-color: deepskyblue;
 }
 .size1{
 	border: 1px solid;
+	width:308px;
 	background-color:#fcfcfc;
 	display:inline-block;
 	position:relative;
 }
 .size2{
 	border: 1px solid;
+        width:628px;
 	background-color:#fcfcfc;
 	display:inline-block;
 	position:relative;
 }
 .size3{
 	border: 1px solid;
+        width:958px;
 	background-color:#fcfcfc;
 	display:inline-block;
 	position:relative;
-	}
+}
+.main{
+    display:block;
+    color:#111;
+    background-color: #fdfdfd;
+    margin:10px;
+}
+.prophoto{
+    width: 240px;
+    height: 320px;
+    float:left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.profile{
+    display:block;
+    clear:both;
+    border-top: 2px solid #cccccc;
+    margin:0 10px;
+    padding:10px 0;
+    
+}
