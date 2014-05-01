@@ -8,6 +8,10 @@ $("#navi").click(function(){
 	}else{
 		$(".secmenu:lt(8)").slideUp(420);
 		$(".secmenu:gt(8)").slideUp(420);
+                $("#oneone").css("display","block");
+		$("#onetwo").css("display","none");
+                $("#twoone").css("display","block");
+		$("#twotwo").css("display","none");
 		$("#sidebar").animate({width:'100px'},{duration:'slow',queue: false}).animate({height:'34px'},{duration:'slow',complete: function(){totyu="0";}});
 	}
 	return;
