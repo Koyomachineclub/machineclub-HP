@@ -4,7 +4,6 @@ body{
 		background-color:#efefef;
 }
 header{
-	margin-bottom:6px;
 	background-color:rgba(156,201,0,1);
 }
 #img{
@@ -41,7 +40,7 @@ header{
 .viewtitle{
 	border-right:solid 1px #f9f9f9;
 	border-bottom:solid 1px #f9f9f9;
-	background-color:darkorange;
+	background-color:#333333;
 	color:#ffffff;
 	margin:0px;
 	font-family: Meiryo UI,'Segoe UI Light','SegoeUIWF',Arial,sans-serif;
@@ -57,18 +56,17 @@ header{
 	display:block;
 }
 #News{
-
-        margin-left: 10px;
 	border: 1px solid purple;
-	padding:0 auto;
-	margin-top:16px;
+        max-height:120px;
+        /* margin-top:16px; */
 }
 #newsmain{
 	font-size:14px;
         width:auto;
-        display:block;margin:10px auto;
+        display:block;
+        margin:10px;
+        overflow-y: scroll;
 }
 #youkoso{
-    margin-right: 10px;
-    border: 1px solid deepskyblue; 
+    border: 1px solid #f1be09; 
 }

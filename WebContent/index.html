@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
 	<meta http-equiv="content-language" content="ja">
 	<meta charset="UTF-8">
@@ -26,12 +26,11 @@
 	<script src="./jquery-2.1.0.js"></script>
 	<title>甲陽機械同好会</title>
 </head>
-<body>
+<body onload="an();block();setTimeout('an();block();',700);setTimeout('an();block();',3000);">
 	<header>
 		<h1><a href="index.html"><img src="sample2.png" width="285px" height="75px" alt="甲陽機械同好会"></a></h1><!--
 		未定/検索バー追加予定
 	--></header><!--
-	
 	--><div id="img" ><!--
 		--><div id="view"><!--
 			--><img class="viewphoto" id="viewphoto1" src="testpicture.jpg" alt="" ><!--
@@ -43,17 +42,24 @@
 		--></div><!--
 	--></div><!--
         --><article class="size2" id="youkoso"><!--
-            --><h2 class="title3"><img class="icon" src="./" alt="ようこそ">Welcome!!</h2><div class="main">ようこそ我らが甲陽機械同好会へ</div><!--
-            --></article><!--
+            --><h2 class="title2"><img class="icon" src="./arm1.svg" alt="ようこそ">Welcome!!</h2><div class="main"><!--
+                -->ようこそ我らが甲陽機械同好会へ<br><!--
+                -->ここでは我々の作った作品の説明、写真やその他機械関連解説記事を載せている場所です。<br><!--
+                -->このページはリンクフリーで記事元のリンクを載せてくれれば転載もOKです。<br><!--
+                -->皆様の参考になるようわかりやすく詳しい記事を書くことを心がけていますのでぜひゆっくり見ていってください。</div><!--
+                --></article><!--
         --><article class="size1" id="News"><!--
             --><h2 class="title1"><img class="icon" src="./news.svg" alt="News">News</h2><!--
 		--><div id="newsmain"><!--
 		--><div style="margin-top:5px;"><span style="margin-right:20px;">2014/04/XX</span>ホームページを公開しました</div><!--
 		--><div style="margin-top:5px;"><span style="margin-right:20px;">2014/04/XX</span>会員情報のページを公開しました</div><!--
 		--></div><!--
-	--></article><!--
-	--><footer>Copyright © 2014 YYT All rights reserved.</footer><!--フッター-->
+                --></article><!--
+                --><script src="./css.js"></script><!--
+                --><article class="size1" id="twitter"><h2 class="title3" style="white-space: nowrap;"><img class="icon" src="./twitter.svg" alt="twitter">Twitter <a href="https://twitter.com/koyomachineclub" class="twitter-follow-button" data-show-count="false" data-lang="ja" data-dnt="true">フォロー</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></h2><a class="twitter-timeline" data-chrome="noheader" data-show-replies="true" href="https://twitter.com/koyomachineclub" data-widget-id="421325043180638208">@koyomachineclub からのツイート</a><!--
+                    --><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></article><!--
+	--><footer>Copyright © 2014 JP3BGY All rights reserved.</footer><!--フッター-->
 	<script src="./sidebar.js"></script>
 	<script src="./top.js"></script>
-</body>
+</body >
 </html>

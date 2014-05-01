@@ -5,7 +5,6 @@
 	color:#444;
 }
 header{
-	margin-bottom:6px;
 }
 @media screen and (min-width:1020px){
 #inner{
@@ -60,6 +59,7 @@ header{
 footer{
 	text-align:center;
         color:#000;
+        clear:both;
 	
 }
 li.primenu{
@@ -148,42 +148,46 @@ section h2{
 	font-size:1.5em;
 	color:#ffffff;
 	background-color:purple;
-	padding:4px;
+	padding:2px;
 }
 .title2{
 	display:block;
 	font-size:1.5em;
 	color:#ffffff;
-        padding:4px;
+        padding:2px;
 	background-color:#f1be09;
 }
 .title3{
 	display:block;
 	font-size:1.5em;
 	color:#ffffff;
-        padding:2px;
+        
+	padding:2px;
         background-color: deepskyblue;
 }
 .size1{
 	border: 1px solid;
-	width:308px;
+	width:318px;
 	background-color:#fcfcfc;
 	display:inline-block;
 	position:relative;
+        vertical-align: top;
 }
 .size2{
 	border: 1px solid;
-        width:628px;
+        width:638px;
 	background-color:#fcfcfc;
 	display:inline-block;
 	position:relative;
+        vertical-align: top;
 }
 .size3{
 	border: 1px solid;
-        width:958px;
+        max-width:958px;
 	background-color:#fcfcfc;
 	display:inline-block;
 	position:relative;
+        vertical-align: top;
 }
 .main{
     display:block;
@@ -198,11 +202,6 @@ section h2{
     margin-bottom: 10px;
     margin-right: 10px;
 }
-.profile{
-    display:block;
-    clear:both;
-    border-top: 2px solid #cccccc;
-    margin:0 10px;
-    padding:10px 0;
-    
+#twitter{
+    border: 1px solid deepskyblue; 
 }
