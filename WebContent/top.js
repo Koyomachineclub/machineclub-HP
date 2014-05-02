@@ -82,6 +82,21 @@ $(window).resize(function() {
 	an();
         block();
 });
+var k=1,timerview,timeview=8000;
+function time(){
+    if(k<4&&k>0){
+        $(".viewtitle").css("color","#f9f9f9");
+        $(".viewtitle").css("background-color","#444");
+        k++;
+        if(k===4)k=1;
+        $(".viewphoto:not(#viewphoto"+k+")").fadeOut(800);
+        $("#viewphoto"+k).fadeIn(800);
+        $("#view"+k).css("color","#444");
+        $("#view"+k).css("background-color","#f9f9f9");
+        timerview=setTimeout('time()',timeview);
+    }
+}
+timerview=setTimeout('time()',timeview);
 function view(obj){
     $(".viewtitle").css("color","#f9f9f9");
     $(".viewtitle").css("background-color","#444");
@@ -89,15 +104,24 @@ function view(obj){
     $(obj).css("background-color","#f9f9f9");
     var objid=$(obj).attr("id");
     if(objid==="view1"){
-        $(".viewphoto:not(#viewphoto1)").fadeOut(400);
-        $("#viewphoto1").fadeIn(400);
+        clearTimeout(timerview);
+        $(".viewphoto:not(#viewphoto1)").fadeOut(800);
+        $("#viewphoto1").fadeIn(800);
+        k=1;
+        timerview=setTimeout('time()',timeview);
     }
     if(objid==="view2"){
-        $(".viewphoto:not(#viewphoto2)").fadeOut(400);
-        $("#viewphoto2").fadeIn(400);
+        clearTimeout(timerview);
+        $(".viewphoto:not(#viewphoto2)").fadeOut(800);
+        $("#viewphoto2").fadeIn(800);
+        k=2;
+        timerview=setTimeout('time()',timeview);
     }
     if(objid==="view3"){
-        $(".viewphoto:not(#viewphoto3)").fadeOut(400);
-        $("#viewphoto3").fadeIn(400);
+        clearTimeout(timerview);
+        $(".viewphoto:not(#viewphoto3)").fadeOut(800);
+        $("#viewphoto3").fadeIn(800);
+        k=3;
+        timerview=setTimeout('time()',timeview);
     }
 }
