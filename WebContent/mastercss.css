@@ -165,6 +165,12 @@ section h2{
 	padding:2px;
         background-color: deepskyblue;
 }
+.title{
+    display:block;
+	font-size:1.5em;
+	color:#ffffff;
+        padding:2px;
+}
 .size1{
 	border: 1px solid;
 	width:318px;
@@ -204,4 +210,23 @@ section h2{
 }
 #twitter{
     border: 1px solid deepskyblue; 
+}
+.metro{
+    display:inline-block;
+    text-align: center;
+    color:#ffffff;
+    width:160px;
+    height:160px;
+}
+.buttonicon{
+    width: 100px;
+    height: 100px;
+}
+.buttonmain{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color:#ffffff;
 }

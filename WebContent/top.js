@@ -1,4 +1,4 @@
-var imgwidth,imgheight,titlelength,per;
+var imgwidth,imgheight,titlelength,per,a;
 
 function an(){
 	titlelength=$(".viewtitle").length;
@@ -28,22 +28,29 @@ function block(){
       $(".size1").css("width",(imgwidth/3-2)+"px");
       $(".size2").css("width",(imgwidth/3*2-2)+"px");
       $(".size3").css("width",(imgwidth-2)+"px");
-      $("#twitter-widget-0").width(imgwidth/3-2);
+      $(".twitter-timeline").width(imgwidth/3-2);
+      $("#buttons").width(imgwidth/3*2);
+      $("#buttons").css("float","left");
       $(".size2").css("float","left");
       $(".size1").css("float","right");
   }else if(imgwidth>=640){
-      $(".size1").css("width",(imgwidth/2-3)+"px");
+      $(".size1").css("width",(imgwidth/2-2)+"px");
       $(".size2").css("width",(imgwidth-2)+"px");
       $(".size3").css("width",(imgwidth-2)+"px");
-      $("#twitter-widget-0").width(imgwidth/2-3);
+      $(".twitter-timeline").width(imgwidth/2-2);
+      $("#buttons").width(imgwidth/2);
+      $("#buttons").css("float","left");
       $(".size2").css("float","none");
-      $(".size1:nth-child(odd)").css("float","right");
-      $(".size1:nth-child(even)").css("float","left");
+      $("#News,#buttons").css("float","left");
+      $("#twitter").css("float","right");
   }else{
       $(".size1").css("width",(imgwidth-2)+"px");
       $(".size2").css("width",(imgwidth-2)+"px");
       $(".size3").css("width",(imgwidth-2)+"px");
-      $("#twitter-widget-0").width(imgwidth-2);
+      $("#buttons").width(imgwidth/3*2);
+      $("#buttons").css("float","none");
+      $(".size1").css("float","none");
+      $(".twitter-timeline").width(imgwidth-2);
   }
 }
 an();
