@@ -4,8 +4,6 @@
 	font-family: Meiryo UI,Segoe UI,Arial,Verdana,Sans-Serif;
 	color:#444;
 }
-header{
-}
 @media screen and (min-width:1020px){
 #inner{
 	position:relative;
@@ -214,6 +212,8 @@ section h2{
 .metro{
     display:inline-block;
     text-align: center;
+    float:right;
+    font-weight: 600;
     color:#ffffff;
     width:160px;
     height:160px;
@@ -225,8 +225,12 @@ section h2{
 .buttonmain{
     position: relative;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    left: 50%;
+    -webkit-transform:translateX(-50%) translateY(-50%);
+    -ms-transform:translateX(-50%) translateY(-50%);
+    transform:translateX(-50%) translateY(-50%);
     color:#ffffff;
+}
+.metro:hover{
+    opacity: 0.6;
 }

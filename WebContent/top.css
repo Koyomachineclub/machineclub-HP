@@ -71,5 +71,20 @@ header{
     border: 1px solid #f1be09; 
 }
 #aboutus{
+    background-color: #cc0066;
+}
+#members{
+    background-color: #3300cc;
+}
+#articles{
     background-color: darkorange;
+}
+#works{
+	background-color:lightseagreen;
+}
+#photos{
+    background-color: limegreen;
+}
+#map{
+    background-color:darkviolet;
 }
