@@ -15,7 +15,7 @@ header{
 	margin:0 auto;
 }
 #viewtitles{
-	
+	background-color: #f9f9f9;
 	position:relative;
 	display:block;
 	white-space: nowrap;
@@ -38,11 +38,12 @@ header{
 	left:0px;
 }
 .viewtitle{
-	border-right:solid 1px #f9f9f9;
-	border-bottom:solid 1px #f9f9f9;
+	margin:0 1px 1px 0px;
 	background-color:#333333;
+        border-left:2px solid #000;
+        border-right:2px solid #000;
+        border-top:2px solid #000;
 	color:#ffffff;
-	margin:0px;
 	font-family: Meiryo UI,'Segoe UI Light','SegoeUIWF',Arial,sans-serif;
 	font-size:18px;
 	display:inline-block;
@@ -50,6 +51,11 @@ header{
 	height:100%;
 	line-height:100%;
 	cursor:pointer;
+        transition:color 1s ease,background-color 1s ease; 
+}
+.viewtitle:hover{
+    color:#444;
+    background-color: #f0f0f0;
 }
 #viewphoto1{
 	opacity:1;
