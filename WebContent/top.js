@@ -82,7 +82,7 @@ $(window).resize(function() {
 	an();
         block();
 });
-var k=1,timerview,timeview=8000;
+var k=1,l=0,timerview,timeview=8000;
 function time(){
     if(k<4&&k>0){
         $(".viewtitle").css("color","#f9f9f9");
@@ -98,6 +98,8 @@ function time(){
 }
 timerview=setTimeout('time()',timeview);
 function view(obj){
+    if(l===0){
+    l=1;
     $(".viewtitle").css("color","#f9f9f9");
     $(".viewtitle").css("background-color","#444");
     $(obj).css("color","#444");
@@ -106,22 +108,22 @@ function view(obj){
     if(objid==="view1"){
         clearTimeout(timerview);
         $(".viewphoto:not(#viewphoto1)").fadeOut(800);
-        $("#viewphoto1").fadeIn(800);
+        $("#viewphoto1").fadeIn(800,function(){l=0;});
         k=1;
         timerview=setTimeout('time()',timeview);
     }
     if(objid==="view2"){
         clearTimeout(timerview);
         $(".viewphoto:not(#viewphoto2)").fadeOut(800);
-        $("#viewphoto2").fadeIn(800);
+        $("#viewphoto2").fadeIn(800,function(){l=0;});
         k=2;
         timerview=setTimeout('time()',timeview);
     }
     if(objid==="view3"){
         clearTimeout(timerview);
         $(".viewphoto:not(#viewphoto3)").fadeOut(800);
-        $("#viewphoto3").fadeIn(800);
+        $("#viewphoto3").fadeIn(800,function(){l=0;});
         k=3;
         timerview=setTimeout('time()',timeview);
-    }
+    }}
 }
