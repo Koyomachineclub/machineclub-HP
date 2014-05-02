@@ -51,11 +51,7 @@ header{
 	height:100%;
 	line-height:100%;
 	cursor:pointer;
-        transition:color 1s ease,background-color 1s ease; 
-}
-.viewtitle:hover{
-    color:#444;
-    background-color: #f0f0f0;
+        transition:color 0.4s ease,background-color 0.4s ease; 
 }
 #viewphoto1{
 	opacity:1;

@@ -74,9 +74,30 @@ function block(){
 }
 an();
 block();
-	
+$("#view1").css("color","#444");
+$("#view1").css("background-color","#f9f9f9");
+$(".viewphoto:not(#viewphoto1)").fadeOut(400);
 $(window).resize(function() {
 	console.log('resized');
 	an();
         block();
 });
+function view(obj){
+    $(".viewtitle").css("color","#f9f9f9");
+    $(".viewtitle").css("background-color","#444");
+    $(obj).css("color","#444");
+    $(obj).css("background-color","#f9f9f9");
+    var objid=$(obj).attr("id");
+    if(objid==="view1"){
+        $(".viewphoto:not(#viewphoto1)").fadeOut(400);
+        $("#viewphoto1").fadeIn(400);
+    }
+    if(objid==="view2"){
+        $(".viewphoto:not(#viewphoto2)").fadeOut(400);
+        $("#viewphoto2").fadeIn(400);
+    }
+    if(objid==="view3"){
+        $(".viewphoto:not(#viewphoto3)").fadeOut(400);
+        $("#viewphoto3").fadeIn(400);
+    }
+}

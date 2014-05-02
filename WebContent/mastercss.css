@@ -2,7 +2,10 @@
 	padding:0px;
 	margin:0px;
 	font-family: Meiryo UI,Segoe UI,Arial,Verdana,Sans-Serif;
-	color:#444;
+	color:#444; 
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
 }
 @media screen and (min-width:1020px){
 #inner{
@@ -198,6 +201,9 @@ section h2{
     color:#111;
     background-color: #fdfdfd;
     margin:10px;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    -ms-user-select: text;
 }
 .prophoto{
     width: 240px;
