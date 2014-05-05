@@ -1,9 +1,9 @@
 $(function() {
 	$("li.hoge").hover(function(){
-	$("ul.hoge3").css("display","block");
+	$("ul",this).css("display","block");
 	},
 	function(){
-	$("ul.hoge3").css("display","none");
+	$("ul",this).css("display","none");
 	}
 	);
 });
