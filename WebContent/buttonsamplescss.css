@@ -86,11 +86,11 @@ a{
             to(rgba(255,255,255,0)));  
 }
 #sample5:hover{
-    color:#55bbee;
+    color:dodgerblue;
 }
 #s5:hover{
-    background: -moz-linear-gradient(top,rgba(255,255,255,1), rgba(200,200,200,1));
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(200,200,200,1)));
+    background: -moz-linear-gradient(top,rgba(255,255,255,1), rgba(155,155,155,1));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(155,155,155,1)));
 }
 ul{
 	background: -moz-linear-gradient(top,rgba(255,255,255,1), rgba(128,128,128,1));
