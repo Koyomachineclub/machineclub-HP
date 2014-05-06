@@ -8,7 +8,6 @@ a{
 	position:relative;
 	display:inline-block;
 	padding:10px 20px;
-	background-color:rgba(156,201,0,1);
 	text-align:center;
 	color:#ffffff;
 	text-decoration:none;
@@ -73,29 +72,22 @@ a{
 }
 #sample5{
     color:#666;
-    font-family: 'MS Pæ˜æœ',serif;
+    font-family: 'MS PÃ¦ËœÂÃ¦Å“Â',serif;
     font-size: 14px;
-	padding:12px 20px;
-    background: -moz-linear-gradient(top, rgba(250,250,250,1), 
-            rgba(255,255,255,0.85) 85%,
-            rggba(255,255,255,0.5) 95%,
-            rgba(255,255,255,0));
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(250,250,250,1)),
-            color-stop(0.85,rgba(255,255,255,0.85)),
-            color-stop(0.95,rgba(255,255,255,0.5)),
-            to(rgba(255,255,255,0)));  
+    padding:12px 20px;
+    opacity: 0.9;
+    background-color: #fefefe;
 }
 #sample5:hover{
     color:dodgerblue;
+    opacity:0.95;
 }
-#s5:hover{
-    background: -moz-linear-gradient(top,rgba(255,255,255,1), rgba(155,155,155,1));
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(155,155,155,1)));
-}
+
 ul{
-	background: -moz-linear-gradient(top,rgba(255,255,255,1), rgba(128,128,128,1));
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(128,128,128,1)));
+	background: -moz-linear-gradient(top,rgba(255,255,255,1), rgba(180,180,180,1));
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(180,180,180,1)));
     display:inline-block;
-    box-shadow:0 1px 3px rgba(0,0,0,0.6);
     padding:0px;
+    padding-right: 1px;
+    padding-bottom: 1px;
 }
