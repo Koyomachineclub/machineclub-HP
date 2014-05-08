@@ -71,14 +71,17 @@ a{
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(156,201,0,1)), to(rgba(156,201,0,0.4)));
 }
 #sample5{
-    color:#666;
-    font-family: 'MS PÃ¦ËœÂÃ¦Å“Â',serif;
+    color:#333;
+    font-family: 'MS P明朝',serif;
     font-size: 14px;
+    font-weight: 600;
     padding:12px 20px;
     opacity: 0.9;
     background-color: #fefefe;
+    
 }
 #sample5:hover{
+    font-weight: 700;
     color:dodgerblue;
     opacity:0.95;
 }
