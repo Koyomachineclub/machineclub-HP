@@ -28,7 +28,7 @@ function addStyleRule(selector, declaration) {
 	}
 }
 var width=document.body.clientWidth;
-if(width>$("body").width())width=$("body").width();
+if(width>$("#img").width())width=$("#img").width();
 console.log(width);
   if(width===960){}else if(width>=640){
       addStyleRule(".size1", "width:"+(width/2-2)+";");

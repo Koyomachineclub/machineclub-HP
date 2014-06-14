@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-language" content="ja">
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="機械,高等学校,高校,中学校,中学,甲陽,甲陽学院,甲陽学院高校,甲陽学院高等学校,甲陽学院中学校,同好会,甲陽機械同好会,machine,machine club,club,電子工作,プログラム,プログラミング,学生,ヘンジニア,変ジニア,工作">
+	<meta name="author" content="Team YYT">
+	<link rel="stylesheet" href="mastercss.css">
+	<!--[if lt IE 7]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+		<script src="html5shiv.js"></script>
+	<![endif]-->
+	<!--[if lt IE 8]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+		<script src="html5shiv.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+		<script src="html5shiv.js"></script>
+	<![endif]-->
+	<!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+	<link rel="SHORTCUT ICON" href="favicon.ico" type="image/vnd.microsoft.icon">
+	
+	<script src="./jquery-2.1.0.js"></script>
+	<title>Chumoyヘッドフォンアンプの製作・前編|甲陽機械同好会</title>
+</head>
+<body id="inner">
+	<header>
+		<h1><a href="../"><img src="sample2.png"width="285px" height="75px" alt="甲陽機械同好会"></a></h1>
+		<!--未定/検索バー追加予定-->
+	</header>
+    <section class="size3" style="display:block;"><h2 style="color:#000;">ただ今工事中です</h2><div class="main">全く出来ていませんがご了承ください。</div></section>
+	<!--サイドバー-->
+	<section id="sidebar" >
+		<h2 id="navi">NAVI</h2>
+		<ul>
+			<li  class="primenu">
+				<a class="notlist" href ="../koujichu.html" ><img style="height:16px;margin-right:8px;" src="./aboutus.svg" alt="about us">about us</a>
+			</li>
+			<li class="primenu">
+                            <a class="sidelist" href ="../members.html" ><img style="height:16px;margin-right:8px;" src="./member.svg" alt="Members">Members</a>
+				<div id="one" class="quicknavi">
+				<div id="oneone" class="naviunactive">navi</div>
+				<div id="onetwo" class="naviactive">navi</div>
+				</div>
+				<ul >
+					<li class="secmenu"><a href="../members.html#moai">モアイ君</a></li>
+					<li class="secmenu"><a href="../members.html#JP3BGY">JP3BGY</a></li>
+					<li class="secmenu"><a href="../members.html#raor">raor</a></li>
+					<li class="secmenu"><a href="../members.html#kikkin">kikkin</a></li>
+					<li class="secmenu"><a href="../members.html#107">いおな</a></li>
+					<li class="secmenu"><a href="../members.html#Grizzly">グリズリー</a></li>
+					<li class="secmenu"><a href="../members.html#killha">キルハ</a></li>
+					<li class="secmenu"><a href="../members.html#H">自動車班班長H</a></li>
+					<li class="secmenu"><a href="../members.html#O">自動車班班員O</a></li>
+				</ul>
+			</li>
+			<li class="primenu">
+				<a class="sidelist" href ="../koujichu.html" ><img style="height:16px;margin-right:8px;" src="./articles.svg" alt="Articles">Articles</a>
+				<div id="two" class="quicknavi">
+				<div id="twoone"class="naviunactive">navi</div>
+				<div id="twotwo"class="naviactive">navi</div>
+				</div>
+				<ul>
+					<li class="secmenu"><a href="../koujichu.html">電子工作</a></li>
+					<li class="secmenu"><a href="../koujichu.html">プログラミング</a></li>
+					<li class="secmenu"><a href="../koujichu.html">車関連</a></li>
+					<li class="secmenu"><a href="../koujichu.html">その他</a></li>
+					<li class="secmenu"><a href="../koujichu.html">文化祭作品</a></li>
+				</ul>
+			</li>
+			<li class="primenu"><a class="notlist" href="../koujichu.html" ><img style="height:16px;margin-right:8px;" src="./works.svg" alt="Works">Works</a></li>
+			<li class="primenu"><a class="notlist" href="../koujichu.html"><img style="height:16px;margin-right:8px;" src="./photos.svg" alt="Photos">Gallery</a></li>
+                        <li class="primenu"><a class="notlist" href="http://koyomachineclub.blogspot.jp/"><img style="height:16px;margin-right:8px;" src="./blog.svg" alt="Blog">Blog</a></li>
+		</ul>
+	</section><section class="size2" style="border-color: lightseagreen;"><h2 style="background-color: lightseagreen;"><img class="icon" src="./moaiicon.svg" alt="moaikunn">Chumoyヘッドフォンアンプの製作・前編</h2><div class="main"><img src="IMG_54657867.jpg" style="width:90%;" >
+<br><br>
+<h2>序章</h2>
+さてわたくしモアイくんは昨冬になんとなく電子工作をする気分になったのです。
+<br>理由は特にありません。ただなんとなくアナログなものを作ってみたかったのです。
+<br><b><big>ただなんとなく</big></b>、です。で、ですよ。特に使わなさそうなものを作ってもこのさみしいお財布をいじめるだけになるのでなにを作ろうかと
+<br>一般的に電子工作マニア(×マニヤ)にはアンプを作る夢があるのではと勝手に推論付け、アンプを作ったらいっぱしの電子工作者になれるのではと勘違いしたわけですね。
+<br>ええ、勘違い。
+
+<br>でもアンプだなんて置くところがない、スピーカーもない、部品も高そうだと思いすぐにあきらめました。
+<br>だけどみなさん！アンプはアンプだけじゃないんです！<small>(通販臭くなってきたな)</small>
+<br><big>ヘッドフォンアンプがあるのです！</big>
+<br><br>ヘッドフォンアンプとは！<br>
+
+<br>特徴：<li>STAXのイヤースピーカーがいい例だが高い電圧が得られ余裕を持って鳴らすことができる。</li>
+<li>携帯音楽プレーヤーの電圧は一般的に低く音に迫力が出ないことが多い。</li>
+<li>ノイズの軽減などに役立つ</li>
+<li>スピーカ用のアンプだとノイズが多いのでとてもつかえたもんではない。</li>
+<br><br>つまり
+	<li>ヘッドフォンアンプとはスピーカーではなくヘッドフォン専用のアンプであ〜る</li>
+	<li><big>とにかく作れ</big><small>（そんなこと書いていない）</small></li>
+</ul>
+<br>ということでヘッドフォンアンプの概略わかっていただけたでしょうか。
+<br><br>でもですよ。僕は電子工作に関しては、それ以外に関してもですが、素人なんですね。いまだにトランジスタとFETの違いが分からない。
+<br>そんなやつに回路図が書けるのか？書けるわけがない。でも作りたいという気持ちはある。
+<br>ではどうするか。インターネットから回路図をもらうしかない。
+<br>先ほど言った通り素人です。いろいろと回路を見てみたのですがとても作れる気がしません。<s>回路図を2つにわけるだなんて気がくるっていやがる！</s>
+
+<h2>回路解説などなどの章</h2>
+
+さて「回路解説」でございます。作るにあたって一つ一つのパーツはわかっておかないといけないでしょ。<br>
+ということで部品解説から行きましょ<br>
+<h3>その1．部品解説</h3>
+<br>回路解説といってもわからない人にはわからないのです。なにがなんやらわかんないものです。<br>
+正直言って僕もよくわかりません。ということで一緒に電子工作で使う主なパーツを見ていきましょう。<br>
+<br><h4>目次</h4>
+<li>オペアンプ</li><li>抵抗</li><li>コンデンサー</li>
+<li>LED</li><li>その他</li><!-- これらにページ内リンクはろうかな -->
+
+<br><h4>オペアンプ</h4>
+<img aligin="left" src="DSC_7634.jpg" alt="オペアンプ" width="300" height="200">
+<img aligin="right"src="DSC_7792.jpg" alt="オペアンプは鬼の血を吸って生きています。" width="300" height="200">
+<img src="オペアンプ.png" alt="" width="300" height="200"><br>
+この火星か土星にでもいそうな微生物に見えるものは「オペアンプ」といいます。とってもかわいいけど目に入れたらかなり痛い。食べちゃいた・・・くないほど。
+<br>オペアンプとは正式にはオペレーショナル・アンプリファイアといい、アナログ信号を増幅するものです。<br>
+このヘッドフォンアンプの心臓部とも言えます。<br>
+なによりも大きな特徴として「増幅率がとても大きく無限大にすることもできる」ことです。<br>
+そして僕がこのヘッドフォンアンプの製作にオペアンプを使ったのはなによりも回路が簡単にすむからです。回路の設計は別として実際に作るときはピンにさえ気を付ければ簡単にできます。<br><br>
+オペアンプにもいろいろあるようでして、詳しくは調べてもらったらいいのですが<small>(というか僕が分からない)</small>そして気を付けないといけないのが一回路入りと二回路入りのオペアンプの買い間違いです。
+まず僕にはオペアンプの見た目が同じに見えます。(というかこの画像も製作に使ったものではなかったりする。)<br>
+一回路入りはヘッドフォンアンプで使うときは片方のチャンネルのみ、つまり左の音なら左のみの音を増幅するので作るときは2つ必要です。<br>
+それに対して二回路入りは一つで両チャンネルを動かすことができます。回路自体はそこまで変わらなくても配線の時に大きく変わってくるので注意しましょう。<br>
+不安なら店員さんに相談するのがいいかもしれません。
+<br><br>図の一番右はオペアンプの回路記号を表しています。
+あとでオペアンプを使った基本的回路について説明します。
+<br><h4>抵抗</h4>
+<img src="DSC_7767.jpg" alt="みんなでバーベキュー" width="300" height="200">
+<img src="DSC_7636.jpg" alt="たまにはまじめな写真を" width="300" height="200">
+<img src="抵抗.png" alt="" width="300" height="200">
+<br>この、みんなで楽しくバーベキュー、みたいな感じの部品は「抵抗」です。（おいしそう・・・）<br>
+食べたことはありませんがとてもおいしいことはないでしょう。
+<br>いわゆる「V=RI」の式の「R」の正体です。回路図のイメージとは全く違う何かしらのダサさもあるかもしれませんがつかみやすいのでいいとしましょう。
+<br>抵抗値は「カラーコード」であらわされます。見えているカラフルな帯がそれです。覚えるしかありません。
+<br><br>抵抗がこのアンプで何に役に立つかというと2つあります。<br>
+1.オペアンプを使った回路の増幅率を変える。<br>
+2.ボリュームの調整。<br>
+2はなんとなくわかるかもしれません。ボリュームです、ボリウム。このアンプでは可変抵抗を使って入力の量を調整し分母自体を変えることで分子も変える。といった感じでしょうか。<br>
+1はどうでしょう。わかりません。これまた後のオペアンプの基本回路のところで。
+<br><h4>コンデンサー</h4>
+<img src="DSC_77755.jpg" alt="" width="300" height="200">
+<img src="c.gif" alt="" width="200" height="200">
+<img src="cc.gif" alt="" width="200" height="200">
+<br>さあ、コンデンサ。上の写真がジャイ〇ンとそれのお供のス〇夫くんが小さいのび〇くんをからかいドラム缶(あれ？)がそれを守っている図にしか見えないですが(ちなみにもう一個はジャ〇アンの権力におびえる女の子)、
+コンデンサといいます。全部違うものに見えますでしょ。でも全部同じコンデンサなのです。
+<br><br>コンデンサは電気をためる役割をしています。単位はF(ファラド）。僕はこのパーツが一体何なのかよくわかりません。あくまで回路に入っているから使ったぐらいでこのコンデンサが回路内でどのような理論でどのように、どの目的で動いているのかが分かりません。
+
+<br>ですのであくまで形式上の紹介となります。
+<br><br>さてコンデンサには上の写真だけで3つの種類があります。一つはセラミックコンデンサ、一つは電解コンデンサ、そして最後にフィルムコンデンサ。
+<br>それではひとつづつ解説を。
+<br><br>
+<table border="1">
+<tr>
+<td width="300"><img src="DSC_7662.jpg" alt="" width="300" height="200"></td>
+<td width="600">1．セラミックコンデンサ・・・セラミックを使っており小型かつ熱に強い。高周波回路などにも使われる。あと安い。</td>
+</tr>
+<tr>
+<td width="300"><img src="DSC_7661.jpg" alt="" width="300" height="200"></td>
+<td width="600">2.電解コンデンサ・・・アルミニウムなどの金属と電解質を使っており大きな容量が得られる。そのため電源回路で使われることが多い。注意点としては極性があること。<br>
+容量が大きいほど単純にでかくなる。また画像でいうと上から見て銀色の部分が防爆弁にあたり電解コンデンサで電解液が蒸気となって膨張、爆発を防ぐためについています。また、極性は左から2番目のコンデンサでいうと灰色になっている側(この場合向かって左)がマイナスです。帯がある側がマイナスということです。</td>
+</tr>
+<tr>
+<td width="300"><img src="DSC_7657.jpg" alt="" width="300" height="200"></td>
+<td width="600">フィルムコンデンサ・・・プラスチックフィルムを使っており温度特性が高く高精度らしい。オーディオ回路によく使われる。ちょっとお値段は高めかも。</td>
+</tr>
+</table>
+<br>ちなみにコンデンサは一般的にノイズ対策に使われます。コンデンサの性質の一つ、周波数が高い交流の電流をよく通すという性質を用いノイズをカットしています。
+<br>また、交流の平滑化で直流に直すのに使われたり、コイルと組み合わせてLCフィルタという低周波をカットし高周波を通すHPF(ハイパスフィルタ)、その逆で低周波を通し高周波を通すLPF(ローパスフィルタ)といろいろな使い方ができます。
+ちなみに回路図の記号ですが真ん中の「+」がないほうがフィルムコンデンサ、セラミックコンデンサで右が電解コンデンサの記号です。
+
+<br><h4>LED</h4>
+<img src="DSC_7674.jpg" alt="" width="300" height="200">
+<img src="DSC_7673.jpg" alt="" width="300" height="200">
+<img src="led.gif" alt="" width="200" height="200">
+<br>さてLEDです。特に回路に関係があったわけではないのですが電源ランプとして使ったので一応紹介。
+<br>近年だと家庭用の電球にLEDが使われたり信号機、駅のディスプレイなどあらゆるところで見かけるLEDですがそのもっとも大きな特徴としては
+エネルギー変換効率が高いため熱が出ない、また照明に使われると長寿命、製造過程での有害物質の使用がない、発光色を変えることができる、紫外線をださないことで虫が寄ってこないなどの利点も多いが
+その一方で高価格、熱に弱く高速度での明滅があるためビデオの録画に影響が出ることがあるなどの問題点もあります。<br>
+それでもそんな欠点を補えるほどの魅力があるのは事実です。小型化ができたり、あと最近だと車のヘッドランプにも使われてるものもあリますね。
+<br><br>
+さて写真を見ていきましょう。一番右のものが実際に使ったLEDと同じタイプです。黄色と赤色をしています。
+<br>真ん中の写真のLEDはなぜか足が4本ありますね。これは「フルカラーLED」といって赤、緑、青すなわちRGBの色を光らせほぼすべての色を表現することができる優れものです。
+<br>そして最後に回路図の記号。LEDの名前は「発光ダイオード」でもあります。つまりダイオードです。ダイオードはご存知の方も多いと思いますが片方にのみ電流を通します。
+記号を見るとイメージがわくような記号とはなっていますが上の図では「右から左の電流は通さず」、「左から右への電流は通します」。
+<s>右から 左へ 受け流す〜 左から 右へは 受け流さない〜♪</s>
+<br>図でいう左側をアノード(陽極)といい右側をカソード(陰極)といいます。ダイオードと構造は似ているかと思いますが逆方向への電圧(この場合右から左)をかけた時の耐電圧が低くこれを超えると「BAN！」ってなるため(経験済み)整流用には使えないのです。
+<br><h4>その他</h4>
+<img src="DSC_7721.jpg" alt="" width="300" height="200">
+<img src="スイッチ.png" alt="" width="300" height="200">
+<br>これはトグルスイッチといいます。これをヘッドフォンアンプのスイッチに使いました。1回路1接点(もしくはon-off型)というそうです。
+<br><br>
+<img src="DSC_7755.jpg" alt="" width="300" height="200">
+<img src="DSC_7725.jpg" alt="" width="300" height="200">
+<img src="DSC_7749.jpg" alt="" width="300" height="200">
+<br>右から順に配線材、9V角型電池、スズめっき線です。
+<br>9Vの電池はこれ一つで一般の乾電池6個分の働き(1.5V×6)をします。今回はオペアンプを±4.5V駆動させるのでこれを使います(次回参照)
+<br>配線材、スズめっき線の使いわけですがめっき線は基板上の部品と部品をつなぎ、配線材は基板を超えてたとえば入力とボリュームなど空中を通るときに使います。
+
+<br><br><br><br><br>
+これで前編はおしまいです。後編は具体的な回路解説などから入っていきます。　<br>byモアイくん</div></section><script src="./css.js"></script><article class="size1" id="twitter"><h2 class="title3" style="white-space: nowrap;"><img class="icon" src="./twitter.svg" alt="twitter">Twitter <a href="https://twitter.com/koyomachineclub" class="twitter-follow-button" data-show-count="false" data-lang="ja" data-dnt="true">フォロー</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></h2><a class="twitter-timeline" data-chrome="noheader" data-show-replies="true" href="https://twitter.com/koyomachineclub" data-widget-id="421325043180638208">@koyomachineclub からのツイート</a><!--
+        --><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></article>
+        <section class="bottombuttons"><a class="bottombutton" href="#top">上に戻る</a><a class="bottombutton" href="../">ホームへ</a></section>
+		<footer>Copyright © 2014 JP3BGY All rights reserved.</footer><!--フッター-->
+	<script src="./sidebar.js"></script>
+        <script src="block.js"></script>
+</body>
+</html>
